@@ -1,0 +1,57 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class B {
+	public static void main(String[] args) {
+		try {// connection code ...
+			 Connection con = DriverManager.getConnection
+					 ("jdbc:mysql://localhost:3306/spring","root","root1234");
+		     System.out.println(con);
+		     
+		     
+		     // sql query
+		     
+		     Statement stmnt = con.createStatement();
+            //stmnt.executeUpdate("DELETE FROM register WHERE email = 'rishu@gmail.com'");
+            //stmnt.executeUpdate("insert into register values( 'ayaan','varanasi', 'ayan@gmail.com','0987654321')");
+		     stmnt.executeUpdate("UPDATE  register SET MOBILE = '123456789',WHERE email = 'aaaachiku@gmail.com' ");
+		     // close connection
+             con.close();
+             				
+
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			
+
+		}
+		
+		
+	}
+	
+
+		
+
+}
+
+			         		
+			         		
+     					         
+			         
+			         
+			         
+			         
+					
+			
+			
+			
+		
+		
+		
+	
+	
+	
+
+

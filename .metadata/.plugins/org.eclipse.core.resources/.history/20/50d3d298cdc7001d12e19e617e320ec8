@@ -1,0 +1,43 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class B {
+	public static void main(String[] args) {
+		try {
+			  
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			
+
+		}
+		
+		
+	}
+	
+
+		
+
+}
+
+			         		
+			         		
+     					         
+			         
+			         
+			         
+			         
+					
+			
+			
+			
+		
+		
+		
+	
+	
+	
+
+

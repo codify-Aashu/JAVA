@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hash_table&apos; to &apos;hash_map&apos;&#x0A;- Original project: &apos;hash_table&apos;&#x0A;- Original element: &apos;hash_table/src/hash_table&apos;&#x0A;- Renamed element: &apos;hash_table/src/hash_map&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hash_table&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;hash_table" name="hash_map" qualified="false" references="true" stamp="1678337050221" textual="false" version="1.0"/>
+</session>

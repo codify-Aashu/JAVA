@@ -1,0 +1,28 @@
+
+
+public class A {
+	
+	public static void main(String[] args) {
+		
+		String str = "my name is lucky";
+		
+		for(int i = str.length();i>=0;i++) {
+			
+			System.out.println(str.charAt(i));  
+		}
+			
+			
+		}
+			
+		
+	} 
+	
+	
+	
+	
+			
+
+	
+	
+
+}
